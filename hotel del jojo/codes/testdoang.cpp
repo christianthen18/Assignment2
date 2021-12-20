@@ -1,4 +1,4 @@
-include<stdio.h>
+#include<stdio.h>
 #include<string.h>
 #include<stdlib.h>
 #include<ctype.h>
@@ -29,9 +29,7 @@ customer *create(const char *customer_id,const char *customer_name,int customer_
 void add_user(){}
 void read_user(){}
 void update_user(){}
-void remove_user(){
-    printf("Enter ID: ");
-}
+void remove_user(){}
 void menu(){
     int choice;
     do{
